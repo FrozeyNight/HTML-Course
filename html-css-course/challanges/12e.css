@@ -1,0 +1,32 @@
+p{
+    font-family: Arial;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 6px;
+    height: 120px;
+    width: 330px;
+}
+.container-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    width: 300px;
+}
+button{
+    background-color: rgb(22, 123, 224);
+    color: white;
+    border-color: rgb(22, 123, 224);
+    border-style: solid;
+    border-radius: 10px;
+}

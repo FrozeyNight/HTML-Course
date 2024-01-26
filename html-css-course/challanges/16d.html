@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>16d</title>
+        <style>
+            .container{
+                position: relative;
+                display: inline-block;
+            }
+            .container:hover .inside-container{
+                opacity: 1;
+            }
+
+            .inside-container{
+                position: absolute;
+                display: flex;
+                background-color: white;
+                height: 70px;
+                width: 200px;
+                align-items: center;
+                border-radius: 6px;
+                border-style: solid;
+                border-color: white;
+                box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+                opacity: 0;
+                pointer-events: none;
+                transition: opacity 0.15s;
+            }
+            p{
+                font-family: Arial;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img style=" height: 50px; border-radius: 25px;" src="glawdys-hodiesne-sans-titre-1.jpg">
+            <div class="inside-container">
+                <img style=" height: 60px; border-radius: 30px; margin-left: 8px;" src="glawdys-hodiesne-sans-titre-1.jpg">
+                <div style="display: flex; flex-direction: column; ;">
+                    <p style="font-weight: bold; margin-left: 6px; margin-bottom: 2px;">Oliver The Cat</p>
+                    <p style="font-size: 12px; margin-top: 2px; margin-left: 6px; margin-bottom: 22px; color: rgb(119, 119, 119);">15M subscribers</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

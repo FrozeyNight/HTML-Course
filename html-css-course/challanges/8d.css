@@ -1,0 +1,26 @@
+input{
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    height: 30px;
+    font-family: Arial;
+}
+.input-email{
+    width: 208px;
+    display: block;
+}
+.button{
+    font-size: 16px;
+    color: white;
+    background-color: rgb(24, 123, 223);
+    border-color: rgb(24, 123, 223);
+    border-style: solid;
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 76px;
+    padding-left: 76px;
+    font-family: Arial;
+}

@@ -1,0 +1,60 @@
+p{
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 330px;
+}
+.container-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 60px;
+    width: 300px;
+}
+button{
+    background-color: rgb(22, 123, 224);
+    color: white;
+    border-color: rgb(22, 123, 224);
+    border-style: solid;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.avatar{
+    width: 50px;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+.inside-row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+}
+.inside-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    width: 1000px;
+}
+.name{
+    font-weight: bold;
+}
+.nickname{
+    color: rgb(168, 166, 166);
+}
+.popularity{
+    color: rgb(168, 166, 166);
+    font-size: 14px;
+}

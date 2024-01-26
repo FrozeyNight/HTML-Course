@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    width: 700px;
+    height: 36px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(127, 81, 187);
+    align-items: center;
+}
+.home{
+    font-family: Arial;
+    color: white;
+    font-weight: 550;
+    margin-left: 14px;
+    font-size: 14px;
+}
+.search-bar{
+    width: 384px;
+    height: 16px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 18px;
+    padding-left: 16px;
+    font-size: 12px;
+}
+.download-button{
+    color: white;
+    background-color: rgb(127, 81, 187);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-right: 6px;
+    font-weight: lighter;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+}

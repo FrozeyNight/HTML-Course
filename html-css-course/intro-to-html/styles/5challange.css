@@ -1,0 +1,62 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.text-condition{
+    color: red;
+    margin-bottom: 6px;
+}
+.text-name{
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 2px;
+}
+.text-discription {
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+.button-buy{
+    color: white;
+    background-color: dodgerblue;
+    margin-left: 424px;
+    margin-top: 10px;
+    border-color: dodgerblue;
+    border-radius: 18px;
+    border-style: solid;
+    padding: 6px 11px 6px 11px;
+    margin-bottom: 20px;
+}
+.price-display{
+    font-size: 32px;
+}
+.display-currency {
+    font-size: 16px;
+    color: dimgray;
+}
+.price-today{
+    color: green;
+}
+.price-hours{
+    color: dimgray;
+    margin-bottom: 20px;
+}
+.hours-change{
+    color:red;
+}
+.tweet-name{
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.name-extras{
+    font-weight:initial;
+    color: dimgray;
+}
+.tweet-text{
+    width: 500px;
+    margin-bottom: 16px;
+}
+.text-ping{
+    color: dodgerblue;
+}

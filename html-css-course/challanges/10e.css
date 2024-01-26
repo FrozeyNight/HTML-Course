@@ -1,0 +1,48 @@
+p{
+    font-family: Arial;
+    margin-left: 8px;
+}
+
+.friend-image{
+    width: 100%;
+}
+.friend-name{
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.friend-count{
+    color: rgb(112, 112, 112);
+    margin-top: 6px;
+    margin-left: 4px;
+}
+.button-friend{
+    color: white;
+    background-color: rgb(12, 119, 226);
+    border-color: rgb(12, 119, 226);
+    border-style: solid;
+    border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 10px;
+    margin-left: 6px;
+}
+.friend-border{
+    box-shadow: 0px 0px 3px rgba(0,0,0, 0.45);
+    margin-right: 16px;
+}
+.profile-picture{
+    width: 30px;
+    border-radius: 60px;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.friend-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}

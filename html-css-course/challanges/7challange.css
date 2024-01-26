@@ -1,0 +1,23 @@
+.email{
+    font-family: Arial;
+    margin-bottom: 6px;
+}
+.agreement{
+    font-family: Arial;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.input{
+    width: 300px;
+}
+.button{
+    color: white;
+    background-color: rgb(22, 117, 212);
+    border-style: solid;
+    border-color: rgb(22, 117, 212);
+    border-radius: 38px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 110px;
+    padding-left: 110px;
+}

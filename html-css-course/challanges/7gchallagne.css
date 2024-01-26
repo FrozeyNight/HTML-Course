@@ -1,0 +1,25 @@
+.avatar{
+    width: 30px;
+    vertical-align: middle;
+    border-radius: 360px;
+}
+.tweet-text{
+    border: none;
+    vertical-align: middle;
+}
+.tweet-button{
+    background-color: rgb(29, 155, 240);
+color: white;
+font-weight: bold;
+font-size: 12px;
+border-color: dodgerblue;
+border-style: solid;
+border-radius: 26px;
+cursor: pointer;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 14px;
+padding-right: 14px;
+transition: box-shadow 0.15s;
+vertical-align: middle;
+}
